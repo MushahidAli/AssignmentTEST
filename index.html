@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="icon" href="assets/images/logo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Dashboard</title>
+    <style>
+        button:hover {
+            background-color: black;
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <div id="left" style="font-size:15px;position:absolute;left:0;top:0;width:8%;border:1px solid rgb(223, 215, 215);padding:3%;height:134%">
+        <img src="assets/images/admin.png" /> Admin<br /><br /><br />
+        <img src="assets/images/dashboard.png" /> Dashboard<br /><br />
+        <img src="assets/images/content.png" /> Content<br /><br />
+        <img src="assets/images/assignment.png" /> Assignment<br /><br />
+        <img src="assets/images/schedule.png" /> Schedule<br /><br />
+        <img src="assets/images/blogs.png" /> Blogs
+        <div style="position:absolute;bottom:0"><img src="assets/images/mediahub.png" /> Media<span style="color:orange">HUB</span></div>
+    </div>
+
+    <center><header style="position:relative;top:-8px;border: 1px solid rgb(223, 215, 215);width: 58.5%;border-left:none;border-right:none;border-top:none;border-bottom:none;display: flex">
+        <div style="position: relative;left: -80px;text-align: left;padding: 20px;color: grey">Content/Photos</div>
+        <div style="position:absolute;right:0;margin-top:15px;"><input type="search" placeholder="Search..." style="padding:5px;background-color: #0000000D;border:0;border-radius: 5px;" /><i style="padding:5px" class="fa-sharp fa-solid fa-bell"></i></div>
+    </header></center>
+
+    <div id="right" style="position:absolute;right:0;top:0;max-width:15%;border:1px solid rgb(223, 215, 215);padding:3%;height:134%"><div><b>Notifications</b></div><br />
+    <div style="font-size: 14px;">
+        <img src="assets/images/bug.png" /> You have a bug that needs..<br /><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5m ago</div><br />
+        <img src="assets/images/user.png" /> New user registered.<br /><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:23 AM</div><br />
+        <img src="assets/images/bug.png" /> You have a bug that needs...<br /><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0:32 AM</div><br />
+        <img src="assets/images/subscribe.png" /> Andi Lane subscribed to you.<br /><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yesterday 12:39 AM</div><br />
+    </div>
+    <div><b>Level 1 Contributors</b></div><br />
+    <div style="position:relative;font-size: smaller;">
+        <img src="assets/images/Female04.png"><div style="position:absolute;top: 2px;left: 30px;"> Edited the details of the project.</div><br><div style="position:absolute;top: 37px;left:30px;color:grey">5m ago</div><br><br>
+        <img src="assets/images/Female05.png"><div style="position:absolute;top: 62px;left: 30px;"> Admin</div><br><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1:32 AM</div><br>
+        <img src="assets/images/Male01.png"><div style="position:absolute;top: 118px;left: 30px;"> Submitted a bug</div><br><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Yesterday 12:39 AM</div><br>
+       <img src="assets/images/Female09.png"><div style="position:absolute;top: 171px;left: 30px;"> Modified A data in page X</div><br><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Last Thursday 3:34 AM</div><br>
+       <img src="assets/images/Female02.png"><div style="position:absolute;top: 232px;left: 30px;"> Deleted a page in Project X</div><br><div style="color:grey">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aug 11</div><br>
+    </div>
+    <div><b>Active 2 Contributors</b></div><br />
+    <div style="font-size: smaller;">
+        <img src="assets/images/Female07.png"> &nbsp;&nbsp;&nbsp;<div style="position:absolute;top: 630px;left: 70px;">Natali Craig</div><br /><br />
+        <img src="assets/images/Male01.png"> &nbsp;&nbsp;&nbsp;<div style="position:absolute;top: 673px;left: 70px;">Drew Cano</div><br /><br />
+        <img src="assets/images/Male0012.png"> &nbsp;&nbsp;&nbsp;<div style="position:absolute;top: 715px;left: 70px;">Orlando Diggs</div><br /><br />
+        <img src="assets/images/Female08.png"> &nbsp;&nbsp;&nbsp;<div style="position:absolute;top: 756px;left: 70px;">Andi Lane</div><br /><br />
+        <img src="assets/images/Female09.png"> &nbsp;&nbsp;&nbsp;<div style="position:absolute;top: 800px;left: 70px;">Kate Morisson</div><br /><br />
+    </div>
+    </div>
+
+    <center><div id="center" style="position:relative;left: -46px;text-align: center;border:1px solid rgb(223, 215, 215);border-left:none;border-right:none;width: 65.5%;margin:0px">
+        <div style="text-align: left;margin:10px">
+            Upload Photo
+            <div style="margin:3%;display: flex;position:relative;background-color:#f1f7f5;padding:10px;border-radius: 10px;">
+                <div>
+                <div>Content Details
+                </div style="display:block;wdith:100%">
+                <div style="position:absolute;right:0">
+                    <button id="number1" style="border:0;padding:10px;border-radius: 5px;"><i class="fas fa-arrow-left"></i> Cancel</button>
+                    <button id="number2" style="border:0;padding:10px;border-radius: 5px;">Update Now <i class="fas fa-arrow-right"></i></button>
+                </div></div>
+
+            <div style="display:block"><div style="border-radius: 10px;width:50%">
+                    <div style="color:grey"><br>Creator Name<br></div>
+                    <input type="text" placeholder="Enter Name Here..." style="background-color:#dcebe6;padding:10px;border:0" />
+                </div>
+                <div style="border-radius: 10px;width:50%">
+                    <div style="color:grey"><br>Title<br></div>
+                    <input type="text" placeholder="Photo Title" style="background-color:#dcebe6;padding:10px;border:0" />
+                </div>
+                <div style="border-radius: 10px;width:50%">
+                    <div style="color:grey"><br>Select Category<br></div>
+                    <select style="padding:10px;background-color:#dcebe6;border:0">
+                        <option>Police Forces</option>
+                    </select>
+                </div>
+                <div style="border-radius: 10px;width:50%">
+                    <div style="color:grey"><br>Description<br></div>
+                    <input type="text" placeholder="Photo Title" style="background-color:#dcebe6;padding:10px;border:0" />
+                </div><br>
+                <div style="border: 1px solid grey; border-radius: 5px;background-color:white;padding:10px">
+                    <span style="color:grey">Add Tags</span><br>
+                    <span style="background-color:#dcebe6">Tag <i class="fa-solid fa-x"></i></span>
+                    <span style="background-color:#dcebe6">Tag <i class="fa-solid fa-x"></i></span>
+                </div><br>
+                <div style="border: 1px solid grey; border-radius: 5px;background-color:white;padding:10px">
+                    <span style="color:grey">Target Public</span><br>
+                    <input type="checkbox" />All
+                    <input type="checkbox" checked />General
+                    <input type="checkbox" checked />Text
+                    <input type="checkbox" checked />Text
+                    <input type="checkbox" checked  />Text
+                </div><br>
+                <div>
+                    <b>Upload Thumbnail</b> <button style="position:absolute;border:0;padding:10px;border-radius: 5px;top:62%;right:3%"><i class="fas fa-plus"></i> Choose File</button>
+                    <div style="border-radius: 5px;background-color:#dcebe6;padding:10px;width:212%">
+                    <img src="assets/images/file.png"> Filename.PNG<br>
+                    <progress style="width:100%" id="file" value="100" max="100"> 100% </progress><br>
+                    File Size: 4.5 MB
+                    </div>
+                </div><br>
+                <div><br>
+                    <b>Upload Content</b> <button style="position:absolute;border:0;padding:10px;border-radius: 5px;top:81.5%;right:3%"><i class="fas fa-plus"></i> Choose File</button>
+                    <div style="border-radius: 5px;background-color:#dcebe6;padding:10px;width:212%">
+                    <img src="assets/images/file.png"> Filename.PNG<br>
+                    <progress style="width:100%" id="file" value="100" max="100"> 100% </progress><br>
+                    File Size: 4.5 MB
+                    </div>
+                </div>
+            </div>
+                
+            </div>
+        </div>
+    </div></center>
+
+    <center><div id="footer" style="position:relative;text-align: center;border:1px solid rgb(223, 215, 215);border-bottom:none;border-left:none;border-right:none;width: 65.5%;left: -46px;">
+        <div style="display:flex;text-align: left;margin:10px;">
+            <span>&copy; 2022 Media Hub</span>
+            <div style="position:absolute;right:0">About Support Contact Us</div>
+        </div>
+    </div></center>
+
+
+</body>
+</html>
